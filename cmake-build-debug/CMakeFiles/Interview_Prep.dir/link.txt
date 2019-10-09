@@ -1,3 +1,0 @@
-"C:\Program Files\JetBrains\CLion 2018.2.2\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\Interview_Prep.dir/objects.a
-C:\msys64\mingw64\bin\ar.exe cr CMakeFiles\Interview_Prep.dir/objects.a @CMakeFiles\Interview_Prep.dir\objects1.rsp
-C:\msys64\mingw64\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\Interview_Prep.dir/objects.a -Wl,--no-whole-archive  -o Interview_Prep.exe -Wl,--out-implib,libInterview_Prep.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Interview_Prep.dir\linklibs.rsp

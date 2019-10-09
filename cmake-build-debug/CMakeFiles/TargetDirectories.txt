@@ -1,3 +1,0 @@
-C:/Users/Tim/Documents/Jobs/Interview Prep/cmake-build-debug/CMakeFiles/Interview_Prep.dir
-C:/Users/Tim/Documents/Jobs/Interview Prep/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Tim/Documents/Jobs/Interview Prep/cmake-build-debug/CMakeFiles/rebuild_cache.dir
