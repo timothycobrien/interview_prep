@@ -56,32 +56,47 @@ include CMakeFiles/Interview_Prep.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Interview_Prep.dir/flags.make
 
-CMakeFiles/Interview_Prep.dir/main.cpp.obj: CMakeFiles/Interview_Prep.dir/flags.make
-CMakeFiles/Interview_Prep.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Tim\Documents\Jobs\Interview Prep\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Interview_Prep.dir/main.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Interview_Prep.dir\main.cpp.obj -c "C:\Users\Tim\Documents\Jobs\Interview Prep\main.cpp"
+CMakeFiles/Interview_Prep.dir/trees.cpp.obj: CMakeFiles/Interview_Prep.dir/flags.make
+CMakeFiles/Interview_Prep.dir/trees.cpp.obj: ../trees.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Tim\Documents\Jobs\Interview Prep\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Interview_Prep.dir/trees.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Interview_Prep.dir\trees.cpp.obj -c "C:\Users\Tim\Documents\Jobs\Interview Prep\trees.cpp"
 
-CMakeFiles/Interview_Prep.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Interview_Prep.dir/main.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Tim\Documents\Jobs\Interview Prep\main.cpp" > CMakeFiles\Interview_Prep.dir\main.cpp.i
+CMakeFiles/Interview_Prep.dir/trees.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Interview_Prep.dir/trees.cpp.i"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Tim\Documents\Jobs\Interview Prep\trees.cpp" > CMakeFiles\Interview_Prep.dir\trees.cpp.i
 
-CMakeFiles/Interview_Prep.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Interview_Prep.dir/main.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Tim\Documents\Jobs\Interview Prep\main.cpp" -o CMakeFiles\Interview_Prep.dir\main.cpp.s
+CMakeFiles/Interview_Prep.dir/trees.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Interview_Prep.dir/trees.cpp.s"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Tim\Documents\Jobs\Interview Prep\trees.cpp" -o CMakeFiles\Interview_Prep.dir\trees.cpp.s
+
+CMakeFiles/Interview_Prep.dir/sorts.cpp.obj: CMakeFiles/Interview_Prep.dir/flags.make
+CMakeFiles/Interview_Prep.dir/sorts.cpp.obj: ../sorts.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Tim\Documents\Jobs\Interview Prep\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Interview_Prep.dir/sorts.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Interview_Prep.dir\sorts.cpp.obj -c "C:\Users\Tim\Documents\Jobs\Interview Prep\sorts.cpp"
+
+CMakeFiles/Interview_Prep.dir/sorts.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Interview_Prep.dir/sorts.cpp.i"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Tim\Documents\Jobs\Interview Prep\sorts.cpp" > CMakeFiles\Interview_Prep.dir\sorts.cpp.i
+
+CMakeFiles/Interview_Prep.dir/sorts.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Interview_Prep.dir/sorts.cpp.s"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Tim\Documents\Jobs\Interview Prep\sorts.cpp" -o CMakeFiles\Interview_Prep.dir\sorts.cpp.s
 
 # Object files for target Interview_Prep
 Interview_Prep_OBJECTS = \
-"CMakeFiles/Interview_Prep.dir/main.cpp.obj"
+"CMakeFiles/Interview_Prep.dir/trees.cpp.obj" \
+"CMakeFiles/Interview_Prep.dir/sorts.cpp.obj"
 
 # External object files for target Interview_Prep
 Interview_Prep_EXTERNAL_OBJECTS =
 
-Interview_Prep.exe: CMakeFiles/Interview_Prep.dir/main.cpp.obj
+Interview_Prep.exe: CMakeFiles/Interview_Prep.dir/trees.cpp.obj
+Interview_Prep.exe: CMakeFiles/Interview_Prep.dir/sorts.cpp.obj
 Interview_Prep.exe: CMakeFiles/Interview_Prep.dir/build.make
 Interview_Prep.exe: CMakeFiles/Interview_Prep.dir/linklibs.rsp
 Interview_Prep.exe: CMakeFiles/Interview_Prep.dir/objects1.rsp
 Interview_Prep.exe: CMakeFiles/Interview_Prep.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Tim\Documents\Jobs\Interview Prep\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Interview_Prep.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Tim\Documents\Jobs\Interview Prep\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Interview_Prep.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Interview_Prep.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

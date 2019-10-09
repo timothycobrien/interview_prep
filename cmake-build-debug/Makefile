@@ -122,32 +122,59 @@ Interview_Prep/fast:
 	$(MAKE) -f CMakeFiles\Interview_Prep.dir\build.make CMakeFiles/Interview_Prep.dir/build
 .PHONY : Interview_Prep/fast
 
-main.obj: main.cpp.obj
+sorts.obj: sorts.cpp.obj
 
-.PHONY : main.obj
+.PHONY : sorts.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) -f CMakeFiles\Interview_Prep.dir\build.make CMakeFiles/Interview_Prep.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+sorts.cpp.obj:
+	$(MAKE) -f CMakeFiles\Interview_Prep.dir\build.make CMakeFiles/Interview_Prep.dir/sorts.cpp.obj
+.PHONY : sorts.cpp.obj
 
-main.i: main.cpp.i
+sorts.i: sorts.cpp.i
 
-.PHONY : main.i
+.PHONY : sorts.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles\Interview_Prep.dir\build.make CMakeFiles/Interview_Prep.dir/main.cpp.i
-.PHONY : main.cpp.i
+sorts.cpp.i:
+	$(MAKE) -f CMakeFiles\Interview_Prep.dir\build.make CMakeFiles/Interview_Prep.dir/sorts.cpp.i
+.PHONY : sorts.cpp.i
 
-main.s: main.cpp.s
+sorts.s: sorts.cpp.s
 
-.PHONY : main.s
+.PHONY : sorts.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles\Interview_Prep.dir\build.make CMakeFiles/Interview_Prep.dir/main.cpp.s
-.PHONY : main.cpp.s
+sorts.cpp.s:
+	$(MAKE) -f CMakeFiles\Interview_Prep.dir\build.make CMakeFiles/Interview_Prep.dir/sorts.cpp.s
+.PHONY : sorts.cpp.s
+
+trees.obj: trees.cpp.obj
+
+.PHONY : trees.obj
+
+# target to build an object file
+trees.cpp.obj:
+	$(MAKE) -f CMakeFiles\Interview_Prep.dir\build.make CMakeFiles/Interview_Prep.dir/trees.cpp.obj
+.PHONY : trees.cpp.obj
+
+trees.i: trees.cpp.i
+
+.PHONY : trees.i
+
+# target to preprocess a source file
+trees.cpp.i:
+	$(MAKE) -f CMakeFiles\Interview_Prep.dir\build.make CMakeFiles/Interview_Prep.dir/trees.cpp.i
+.PHONY : trees.cpp.i
+
+trees.s: trees.cpp.s
+
+.PHONY : trees.s
+
+# target to generate assembly for a file
+trees.cpp.s:
+	$(MAKE) -f CMakeFiles\Interview_Prep.dir\build.make CMakeFiles/Interview_Prep.dir/trees.cpp.s
+.PHONY : trees.cpp.s
 
 # Help Target
 help:
@@ -158,9 +185,12 @@ help:
 	@echo ... Interview_Prep
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... sorts.obj
+	@echo ... sorts.i
+	@echo ... sorts.s
+	@echo ... trees.obj
+	@echo ... trees.i
+	@echo ... trees.s
 .PHONY : help
 
 

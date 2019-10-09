@@ -56,7 +56,8 @@ void traversalTest() {
     postOrderTraversal(root);
 }
 
+/*
 int main() {
     traversalTest();
     return 0;
-}
+}*/
